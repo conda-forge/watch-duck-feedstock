@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/w/watch-duck/watch_duck-{{ version }}.tar.gz
-  sha256: e855d07b372ae54998fee12fab46500396057bb4e85c9cc51e4220417b469d5f
+  url: https://files.pythonhosted.org/packages/source/w/watch-duck/watch_duck-{{ version }}.tar.gz
+  sha256: b8b7d741b558da8fe1d08f98f5cd4cceab673db5e8823e3bc59f7dff07b388b4
 
 build:
   entry_points:
@@ -27,6 +27,7 @@ requirements:
     - dask-core
     - h5netcdf
     - numpy
+    - omegaconf
     - pandas
     - rich
     - rich-click
