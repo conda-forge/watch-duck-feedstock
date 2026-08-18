@@ -27,6 +27,7 @@ requirements:
     - dask-core
     - h5netcdf
     - numpy
+    - omegaconf
     - pandas
     - rich
     - rich-click
