@@ -1,4 +1,4 @@
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/w/watch-duck/watch_duck-{{ version }}.tar.gz
-  sha256: b8b7d741b558da8fe1d08f98f5cd4cceab673db5e8823e3bc59f7dff07b388b4
+  sha256: 7f5a0b50e8997a8d959b81bc5e383d6a195743dc2ad94df75a885a5ac4bfb943
 
 build:
   entry_points:
