@@ -24,6 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - bottleneck
+    - cfgrib
     - dask-core
     - h5netcdf
     - numpy
